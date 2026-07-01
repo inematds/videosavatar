@@ -2,7 +2,7 @@
 
 Ecossistema para gerar vídeos de **avatar falante** no HeyGen a partir de um roteiro de texto (9:16, 720p, voz PT-BR) e **entregar o MP4 no bot do openpcbot** (Telegram).
 
-**Página de guia:** https://inematds.github.io/videosavatar-guia/
+**Página de guia:** https://inematds.github.io/videosavatar/
 
 ## Os dois caminhos (mesma geração, billing diferente)
 
