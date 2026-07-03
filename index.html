@@ -28,7 +28,7 @@
   h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
   a{color:var(--amb);text-decoration:none}
   code,pre{font-family:"JetBrains Mono",monospace}
-  .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
   .mut{color:var(--mut)} .amb{color:var(--amb)}
   .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
   nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
@@ -40,6 +40,7 @@
   nav .inema:hover{filter:brightness(1.15)}
   nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
   nav .pro:hover{filter:brightness(1.15)}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
   nav .links{margin-left:auto;display:flex;align-items:center;gap:20px;font-size:.92rem}
   nav .links a.sec{color:var(--mut)} nav .links a.sec:hover{color:var(--txt)}
   .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
@@ -97,9 +98,11 @@
 <nav><div class="wrap">
   <a class="brand" href="#top"><span class="emoji">🎬</span> VideosAvatar</a>
   <span class="sep">|</span>
-  <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
-  <span class="sep">-</span>
-  <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+  <span class="clubpro">
+    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <span class="sep">-</span>
+    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+  </span>
   <div class="links">
     <a class="sec" href="#oque">O que é</a>
     <a class="sec" href="#fluxo">Como funciona</a>
